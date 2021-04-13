@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css?family=New+Tegomin');
+
+html, body {
+    background-color: rgb(205,238,248);
+    font-family: 'New+Tegomin';
+}
+
+
+.navbar-brand img{
+    height: 70px;
+}
+.navbar {
+   background-color: rgb(255, 209, 220) !important; 
+}
+.nav-item a{
+    font-size: 20px;
+}
+
+.carousel-inner img{
+    width: 100%;
+    height: 100%;
+}
+.carousel{
+    margin-top: none;  
+}
+
+
+
+.tracuu{
+    height: 100%;
+}
+.tracuu h1{
+    font-size: 25px;
+}
+.tracuuvandon{
+    background-color: white;
+    height: 110%;
+    padding: 50px;
+    margin: 4%;
+}
+.tracuuvandon h1{
+    text-align: center;
+    font-size: 25px;
+} 
+
+
+.tracuocphi{
+    background-color: white;
+    padding: 50px;
+    margin: 4%;
+    height: 110%;
+}
+.tracuocphi h2{
+    font-size: 15px;
+}
+
+.timkiembuucuc{
+    background-color: white;
+    margin-left: 10%;
+    padding: 50px;
+    margin: 4%;
+    height: 110%;
+}
+
+.dichvu{
+    text-align: center;
+}
+.dichvu h1{
+    font-size: 25px;
+}
+
+.dichvunoibat{
+    height: 500px;
+}
+.dichvunoibat h1{
+    font-size: 25px;
+    text-align: center;
+}
+
+.dichvunoibat h3{
+    font-size: 15px;
+    text-align: center;
+}
+
+.chuyenphatnhanh{
+    background-color: white;
+    margin: 4%;
+    height: 105%;
+    padding: 50px;
+}
+.chuyenphatnhanh p{
+    font-size: 100px;
+    text-align: center;
+}
+
+.chuyenphattietkiem{
+    background-color: white;
+    margin: 4%;
+    padding: 50px;
+    height: 105%; 
+}
+.chuyenphattietkiem p{
+    font-size: 100px;
+    text-align: center;
+}
+.chuyenphathoatoc{
+    background-color: white;
+    margin: 4%;
+    padding: 50px;
+    height: 105%;
+}
+.chuyenphathoatoc p{
+    font-size: 100px;
+    text-align: center;
+}
+
+
+.jptintuc{
+    text-align: center;
+}
+.maintintuc{
+    margin: 4%;
+}
+.tintuc{
+    height: 100%;
+    background-color: white;
+}
+.maintintuc h1{
+    text-align: center;
+    font-size: 25px;
+}
+.icon1{
+    font-size: 50px;
+}
+
+
+.phancuoi{
+    background-color:rgb(205, 238, 248);
+}
+
+.tongcongty{
+    margin: 4%;
+    padding: 50px;
+}
+
+.gioithieu h5{
+    text-align: center;
+    color: black;
+}
+.gioithieu a{
+    color: black;
+}
+.gioithieu{
+    margin: 4%;
+    padding: 50px;
+}
+
+
+/*Media Query*/
+@media (max-width: 992px){
+}
+@media (max-width: 768px){
+    
+    .navbar-brand img{
+        height: 60px;
+    }
+
+    .carousel{
+        margin-top: 10px;  
+    }
+
+    .nav-item a{
+        font-size: 15px;
+    }
+    .jptintuc{
+        margin-top:550px; 
+        }
+        .chuyenphatnhanh p{
+            font-size: 75px;
+            text-align: center;
+        }
+    .chuyenphattietkiem p{
+    font-size: 75px;
+    text-align: center;
+        }
+    .chuyenphathoatoc p{
+    font-size: 75px;
+    text-align: center;
+        }
+}
+@media (max-width: 576px){
+	.navbar-brand img{
+        height: 50px;
+    }
+    .carousel{
+        margin-top: 78px;  
+    }
+
+    .nav-item a{
+        font-size: 15px;
+    }
+    
+
+    .jptintuc{
+           margin-top: 550px; 
+    }
+    .chuyenphatnhanh p{
+        font-size:50px;
+        text-align: center;
+    }
+.chuyenphattietkiem p{
+font-size: 50px;
+text-align: center;
+    }
+.chuyenphathoatoc p{
+font-size: 50px;
+text-align: center;
+    }
+}
+

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoGo</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+<body>
+    <!--Thanh công cụ-->
+    <div class="container-fluid fixed-top"> 
+        <div class="navbar navbar-expand-md navbar-light bg-light ">
+            <a class="navbar-brand" href="#">
+                <img src="/logo.png" alt="">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Trang chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#theodoivandon">Theo dõi vận đơn</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#dichvu">Dịch vụ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tintuc">Tin tức</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--Slide chuyển động-->
+    <div class="container-fluid"> 
+                <div class="carousel slide" id="slides" data-ride="carousel">
+                    <ul class="carousel-indicators">
+                        <li data-target = "#slides" data-slide-to="0" class="active"></li>
+                        <li data-target="#slides" data-slide-to="1"></li>
+                    </ul>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="/luanchuyen.jpg" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/buudien.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Theo dõi vận đơn-->
+    <div id="theodoivandon" class="container-fluid tracuu">
+        <div class="row">
+            <div class="col-md-3 tracuuvandon">     
+                <h1>Tra cứu vận đơn</h1>
+                <br>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                </div>
+                <br>
+                <div class="input-group-append">
+                    <button class="btn btn-success" type="submit">Tra cứu</button>
+                  </div>
+            </div>
+
+
+            <div class="col-md-3 tracuocphi">
+                <h1>Tra cước phí</h1>
+                <br>
+                <h2>Nhập nơi gửi*</h2>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                </div>
+
+                <h2>Nhập nơi đến*</h2>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                </div>
+
+                <h2>Nhập cân nặng*</h2>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                </div>
+                <br>
+                <div class="input-group-append">
+                    <button class="btn btn-success" type="submit">Tra cứu</button>
+                  </div>
+            </div>
+
+
+            <div class="col-md-3 timkiembuucuc">
+                <h1>Tìm kiếm bưu cục</h1>
+                <br>
+                <button type="button" class="btn btn-primary">Tìm kiếm</button>
+            </div>
+
+      </div>
+    
+      <!--Dich vu noi bat-->
+    <div id="dichvu" class="jumbotron jumbotron-fluid dichvu">
+        <div class="container"></div>
+            <h1>DỊCH VỤ NỔI BẬT</h1>      
+        </div>
+    </div>
+
+    <div class="container-fluid dichvunoibat">
+        <div class="row">
+            <div class="col-md-3 chuyenphatnhanh">
+                <h1>CHUYỂN PHÁT NHANH</h1>
+                <h3>NHANH - AN TOÀN - CHÍNH XÁC</h3>
+                <p><i class="fas fa-shipping-fast"></i></p>
+            </div>
+            <div class="col-md-3 chuyenphattietkiem">
+                <h1>CHUYỂN PHÁT TIẾT KIỆM</h1>
+                <h3>AN TÂM - TIẾT KIỆM - KỊP THỜI</h3>
+                <p><i class="fas fa-business-time"></i></p>
+                
+            </div>
+            <div class="col-md-3 chuyenphathoatoc">
+                <h1>CHUYỂN PHÁT HỎA TỐC</h1>
+                <h3>GIAO NGAY TRONG 24H</h3>
+                <p><i class="fas fa-dragon"></i></p>
+
+            </div>
+        </div>
+    </div>
+
+
+     <!--Tintuc-->
+     <div id="tintuc" class="jumbotron jumbotron-fluid jptintuc">
+        <div class="container">
+            <h1>TIN TỨC</h1>  
+        </div>
+    </div>
+    <div class="container-fluid maintintuc">
+        <br>
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#tt1">Tin tức 1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#tt2">Tin tức 2</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#tt3">Tin tức 3</a>
+          </li>
+        </ul>
+      
+        <!-- Tab panes -->
+        <div class="tab-content tintuc">
+          <div id="tt1" class="container tab-pane active"><br>
+            <h1>Analyst Meeting quý 1 năm 2021</h1>
+            <br>
+            <p><br>
+                Tổng Công ty Cổ phần Bưu chính HAITHAIPOST trân trọng thông báo về việc tổ chức Analyst Meeting (AM) – Q1/2021.
+                AM là một hoạt động được Viettel Post rất quan tâm để cung cấp, cập nhật cho các cổ đông, nhà đầu tư, chuyên viên phân tích và môi giới các công ty chứng khoán về tình hình hoạt động kinh doanh, các kế hoạch, định hướng phát triển trong thời gian tiếp theo của Viettel Post nhằm tăng cường tính minh bạch trong công bố thông tin, sự tương tác giữa Ban lãnh đạo Viettel Post với cộng đồng đầu tư.
+                Kế hoạch tổ chức AM – Q1/2021 của HAITHAIPOST như sau:
+                <br>                                       
+                – Thời gian: 14 giờ 00 – 16 giờ 30 hàng ngày.
+                <br>                   
+                – Địa chỉ tổ chức: My home
+                <br>
+                – Chương trình: Trao đổi về kết quả kinh doanh năm 2020 và kế hoạch năm 2021.
+                <br>
+                – Để đăng ký tham dự sự kiện AM của HAITHAIPOST, xin vui lòng điền đầy đủ thông tin theo form tại đây và gửi vào mail của tôi. <i class="fas fa-mail-bulk"></i>
+                <br>
+                – Thời hạn kết thúc đăng ký là hết ngày 30/04/2021.
+                <br>
+                * Lưu ý: Trường hợp người tham gia là người có quốc tịch nước ngoài (không phải là người có quốc tịch Việt Nam) thì phải đăng ký và cung cấp cho Viettel Post hộ chiếu của người nước ngoài đó trước ngày 11/04/2021 để Viettel Post làm thủ tục theo quy định.
+                Vì số lượng chỗ có hạn, mỗi đơn vị vui lòng đăng ký tối đa 2 đại diện tham dự. Chúng tôi sẽ nhận đăng ký theo nguyên tắc đơn vị nào đăng ký trước sẽ được xác nhận trước cho đến khi hết chỗ và gửi email xác nhận đến những đơn vị đã đăng ký thành công.
+                <br>
+                Trân trọng thông báo.</p>
+          </div>
+          <div id="tt2" class="container tab-pane tt2"><br>
+            <h1><i class="fas fa-wrench"></i> Hướng dẫn cài đặt kết nối máy điện thoại trên app ViettelPost</h1>
+            <br>
+            <p>
+                Bước 1: Kết nối máy của bạn vào Appstore, CHplay
+                <br>
+               <br> Bước 2: Tìm kiếm HAITHAIPOST
+               <br>
+               <br> Bước 3: Tải về
+               
+            </p>
+            <p class="icon1"><i class="fas fa-store"></i></p>
+          </div>
+          <div id="tt3" class="container tab-pane fade"><br>
+            <h1>Thông tin kết quả sản xuất kinh doanh dự kiến quý I năm 2021</h1>
+            <br>
+                <p>
+                    Dự kiến kết thúc Quý I năm 2021, Tổng công ty Cổ phần HAITHAIPOST ghi nhận tổng doanh thu đạt 5.060 tỷ đồng (đạt 111,3% kế hoạch quý I và hoàn thành 23,6% kế hoạch năm 2021 – dự kiến trình ĐHĐCĐ thường niên năm 2021 thông qua) và lợi nhuận trước thuế đạt 134 tỷ đồng (đạt 106,6% kế hoạch quý I và hoàn thành 21,6% kế hoạch năm 2021). Đặc biệt, tổng sản lượng bưu phẩm dự kiến đạt tăng trưởng khoảng 16% so với Q1 2020.
+                    <br>
+                    Với bối cảnh quý I hằng năm là mùa thấp điểm của hoạt động bưu chính chuyển phát và 2 tháng đầu năm 2020 vẫn chưa bị tác động mạnh bởi dịch COVID-19, các kết quả trên cho thấy hoạt động kinh doanh của Tổng công ty đang vẫn đang duy trì đà tăng trưởng tích cực. Đặc biệt, tỷ suất lợi nhuận trước thuế trên doanh thu hợp nhất và tốc độ tăng trưởng lợi nhuận trước thuế trong Quý I/2021 có sự cải thiện so với Quý IV 2020 nhờ các biện pháp tối ưu hiệu quả chi phí và ứng dụng tự động hóa hoạt động kinh doanh.
+                </p>
+          </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid phancuoi">
+        <div class="row">
+            <div class="col-md-7 tongcongty">
+                <div class="container">
+                    <h2>TỔNG CÔNG TY CỔ PHẦN BƯU CHÍNH HAITHAI</h2>
+                    <p>HAITHAIPOST là doanh nghiệp hàng đầu cung cấp dịch vụ chuyển phát nhanh hàng hoá, bưu kiện trong nước, quốc tế tại
+                        Việt Nam</p>
+                    <h5>THÔNG TIN LIÊN HỆ</h5>
+                    <p><i class="fab fa-facebook-square"></i> facebook.com/haithaideptrai</p>
+                    <p><i class="fab fa-youtube"></i> Haithaideptrai</p>
+                    <p><i class="fas fa-envelope"></i> haithaideptrai@gmail.com</p>
+                    <p><i class="fas fa-phone-volume"></i> Hotline: 696969</p>
+                  </div>
+                  
+            </div>
+            <div class="col-md-3 gioithieu">
+                <h5>Giới thiệu</h5>
+                <ul class="nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><i class="fas fa-home"></i> Trang chủ</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#theodoivandon"><i class="fas fa-search"></i> Tra cứu vận đơn</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#tintuc"><i class="fas fa-newspaper"></i> Tin tức</a>
+                    </li>
+                  </ul>
+            </div>
+        </div>
+    </div>
+      
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+    <!--font-family: 'Indie Flower';-->
+</body>
+</html>
